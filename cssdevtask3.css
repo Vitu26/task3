@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+    --cor--botao:#FFB800;
+    --cor-botao-foco: #FF900E;
+}
+* {
+    /* para zerar tudo */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(100, 100, 241);
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    border-bottom: 1px solid #000;
+    gap: 100px;
+    background-color: #fff;
+    
+}
+
+.logo {
+    height: 60px;
+}
+.menu {
+    display: flex;
+    gap: 65px;
+}
+.item-menu {
+    font-size: 22px;
+}
+.item-menu:link {
+    color: #000;
+    text-decoration: none;
+
+}
+.item-menu:visited {
+    color: blue;
+    text-decoration: none;
+}
+.item-menu:hover {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.area-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+
+}
+.titulo {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
+
+
+.botao {
+    height: 100px;
+    width: 420px;
+    background-color: rgb(245, 242, 102);
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    /* estudar a propriedade transition*/
+    
+}
+
+
+
+.botao:hover {
+    background-color: hsl(56, 100%, 50%);
+}
+
+.rodape{
+   padding: 50px;
+   border-top: 1px solid #000;
+   background-color: #fff;
+
+}
+.rodapetext {
+    text-align: center;
+    font-family: 'ROBOTO', sans-serif;
+    font-size: 24px;
+}
+
